@@ -19,7 +19,7 @@ export default function Weather_app(){
             setLoading(true);
             setError('');
             try {
-              const apiKey = '2517c83c49597089188f9da47c604b3d';
+              const apiKey = process.env.REACT_APP_WEATHER_KEY;
               const res = await fetch(
                 `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
               );

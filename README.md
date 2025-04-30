@@ -18,8 +18,8 @@ A simple React-based weather application that fetches current weather data using
 
 ## 📸 Screenshot
 <!-- You can upload a screenshot here later -->
-![Weather App Screenshot](public\screenshot.png)
-![Weather App Screenshot](public\Screenshot1.png)
+![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](Screenshot1.png)
 
 ## 📁 Folder Structure
 - `App.js` – Handles search input, API calls, and state
